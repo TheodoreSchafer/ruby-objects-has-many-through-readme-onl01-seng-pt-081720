@@ -30,10 +30,11 @@ class Waiter
     best_tipper = nil
 
     meals.each do |customer|
-      binding.pry
+
       if customer.tip > best_tip
         best_tip = customer.tip
         best_tipper = customer
+        binding.pry
       end
     end
     return best_tipper
