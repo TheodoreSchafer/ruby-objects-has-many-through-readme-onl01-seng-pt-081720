@@ -32,7 +32,7 @@ class Waiter
         if customer.tip > best_tip
         best_tip = customer.tip
         best_tipper = customer
-    
+
       end
     end
     return best_tipper
