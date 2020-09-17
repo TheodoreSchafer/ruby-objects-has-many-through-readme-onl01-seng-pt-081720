@@ -37,7 +37,7 @@ class Waiter
 
       end
     end
-    
+
     return best_tipper
 
   end
