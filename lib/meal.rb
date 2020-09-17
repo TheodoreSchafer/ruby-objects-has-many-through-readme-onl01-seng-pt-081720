@@ -1,7 +1,10 @@
 class Meal
 
   def initialize
-    @waiter
+    @waiter = waiter
+    @customer = customer
+    @total = total
+    @tip = tip
   end
 
 end
