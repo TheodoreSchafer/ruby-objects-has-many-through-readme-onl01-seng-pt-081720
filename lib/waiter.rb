@@ -18,8 +18,8 @@ class Waiter
   end
 
   def meals
-    meals.map do |meals|
-      meals.waiter
+    Meal.all.select do |meal|
+      
     end
   end
 
