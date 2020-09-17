@@ -36,6 +36,7 @@ class Waiter
 
       end
     end
+    binding.pry
     return best_tipper
 
   end
