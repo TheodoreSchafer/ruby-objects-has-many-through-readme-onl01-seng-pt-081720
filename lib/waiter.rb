@@ -29,7 +29,7 @@ class Waiter
     best_tip = 5
     best_tipper = nil
     meals.each do |customer|
-      binding.pry
+      
         if customer.tip > best_tip
         best_tip = customer.tip
         best_tipper = customer
