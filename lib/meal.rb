@@ -1,5 +1,7 @@
 class Meal
 
+  attr_accessor :waiter, :customer
+
   def initialize
     @waiter = waiter
     @customer = customer
