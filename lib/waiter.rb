@@ -1,3 +1,5 @@
+require 'pry'
+
 class Waiter
   attr_accessor :name, :yrs_experience
 
@@ -26,6 +28,7 @@ class Waiter
   def best_tipper
     best_tip = 0
     best_tipper = nil
+    binding.pry
     meals.each do |customer|
       if customer.tip > best_tip
         best_tip = customer.tip
