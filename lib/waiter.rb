@@ -32,7 +32,7 @@ class Waiter
         best_tipper = customer
       end
     end
-    best_tipper
+    return best_tipper
 
   end
 
