@@ -27,7 +27,6 @@ class Customer
     meals.map do |meals|
       meal.waiter
     end
-
   end
 
 end
